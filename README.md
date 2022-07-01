@@ -1,7 +1,7 @@
 # RuneScape in C
 #### Video Demo:  [YouTube](https://youtu.be/h1mt6AdUYqM/)
 #### Description:
-RuneScape in C is a text-based recreation of the video game that originally inspired me to learn how to code back in the late 2000s/early 2010s. It is, in it's current state, only able to fully perform the functions of what's available in the spawn room of the game. However, the basic framework is created to allow it to grow quickly. At time of project submission (as my final project for CS50), this project contained 1,555 lines of code across 12 files, an imported sqlite3 .c file, and a relational database with 3 linked tables storing user/character data.
+RuneScape in C is a text-based recreation of the video game that originally inspired me to learn how to code back in the late 2000s/early 2010s. It is, in it's current state, only able to fully perform the functions of what's available in the spawn room of the game. However, the basic framework is created to allow it to grow quickly. At time of project submission (as my final project for CS50), this project contained 1,555 lines of code across 12 files, an imported sqlite3 .c file, and a relational database built on SQLite3 with 3 linked tables storing user/character data.
 
 runescape.c is where `int main(void)` lives, and runs every possible function in the game. It starts by logging in, initializing some data for the game, and then prompting the user for a function to run. It reloads character data after every function to pass it in to `do_something()` so that any new data from previous functions is accounted for. 
 
