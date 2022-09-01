@@ -1,7 +1,7 @@
 # Makefile provided by Joey Adams from
 # https://stackoverflow.com/a/1484873/19117711
 
-TARGET = main
+TARGET = "RuneScape\ in\ C"
 LIBS = -lm
 CC = gcc
 CFLAGS = -g -Wall
