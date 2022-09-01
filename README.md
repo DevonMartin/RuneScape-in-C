@@ -94,6 +94,8 @@ Objects are interacted with to allow a player to gain new items, experience in t
 5. Move *RuneScape in C* to your desired location, and delete all other files.
 6. Double-click *RuneScape in C* to play!
 
-#### Original Video Demo: [YouTube](https://youtu.be/h1mt6AdUYqM/)
+## Original Video Demo
+
+[YouTube](https://youtu.be/h1mt6AdUYqM/)
 
 Please note that this video demo is from the original release. Many stylistic changes have been made since then, along with significant expansion to the program, and this should only be used as a reference to how far the project has come since then. 
