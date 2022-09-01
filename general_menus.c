@@ -4,11 +4,11 @@
 #include <string.h>
 
 #include "headers/game_functions.h"
+#include "headers/general_menus.h"
 #include "headers/global.h"
 #include "headers/items.h"
 #include "headers/locations.h"
 #include "headers/npcs.h"
-#include "headers/general_menus.h"
 #include "headers/main.h"
 #include "headers/skills.h"
 
@@ -163,11 +163,6 @@ int display_options() {
     }
 }
 
-int load_main_menu_options() {
-    eval_options();
-    return display_options();
-}
-
 int more_actions() {
 
     char *options[10];
@@ -192,7 +187,7 @@ int more_actions() {
         option_functions[2] = print_location;
         option_functions[3] = settings;
         option_functions[4] = log_out;
-        option_functions[5] = load_main_menu_options;
+        option_functions[5] = display_options;
         
     } else if (get_location_state(2) > 0) {
 

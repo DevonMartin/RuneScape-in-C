@@ -1,9 +1,7 @@
 
 # RuneScape in C
 
-***
-
-<img src="./img/RSinCLogo.png" align="right" alt="RuneScape in C logo" height="zuto" width="10%">
+<img src="./img/RSinCLogo.png" align="right" alt="RuneScape in C logo" height="zuto" width="12%">
 
 RuneScape in C is a text-based recreation of the video game that originally inspired me to learn how to code back in the late 2000s/early 2010s. It is currently a representation of the log-in system, including account creation, and the first two sections of the tutorial of the game. RuneScape in C is meant to be as close to a perfect recreation as reasonable. All dialogues, results of interactions between items and objects, timings of skilling actions, etc. are accurate to the original game, using [Old School RuneScape](https://oldschool.runescape.com) during 2022 and [the associated wiki page](https://oldschool.runescape.wiki) as reference. 
 
@@ -86,22 +84,18 @@ Objects are interacted with to allow a player to gain new items, experience in t
 * **skills.c** includes functions related to training skills within the game. Items and objects are passed to these functions, with results calculated within the functions based on locations, character skill levels, random chance of success, etc.
 * [**sqlite3.c**](https://www.sqlite.org/cintro.html) is the file that allows for interaction with the database that stores all user/character information.
 
+## Installation
+1. [Download](https://github.com/DevonMartin/RuneScape-in-C/archive/refs/heads/main.zip) this repository. *README.md*, *LICENSE* and the *img* folder can be deleted.
+2. Open a Terminal window.
+ * On MacOS, this can be done by pressing ```cmd-space``` to open *Spotlight Search*, typing *Terminal*, and pressing ```enter```.
+ * On Windows, third party software may be required to continue. However, you can simply run the *RuneScape in C* file provided, and disregard the remaining installation instructions. This comes at the cost of not being able to verify the file yourself.
+3. Change directories using ```cd ...``` into the location of the downloaded files.
+4. Type ```make```. This will create *RuneScape in C*, the executable game.
+5. Move *RuneScape in C* to your desired location, and delete all other files.
+6. Double-click *RuneScape in C* to play!
 
 ## Original Video Demo
 
-
-<p align="center">
-	<iframe style="aspect-ratio: 16 / 9;" allow="fullscreen" src="https://youtube.com/embed/h1mt6AdUYqM" width="85%"></iframe>
-</p>
+[YouTube](https://youtu.be/h1mt6AdUYqM/)
 
 Please note that this video demo is from the original release. Many stylistic changes have been made since then, along with significant expansion to the program, and this should only be used as a reference to how far the project has come since then. 
-
-## Installation
-1. [Download](https://github.com/DevonMartin/RuneScape-in-C/archive/refs/heads/main.zip) this repository. *README.md* and the *img* folder can be deleted.
-* Open a Terminal window.
- * On MacOS, this can be done by pressing ```cmd-space``` to open *Spotlight Search*, typing *Terminal*, and pressing ```enter```.
- * On Windows, third party software may be required to continue. However, you can simply run the *RuneScape in C* file provided, and disregard the remaining installation instructions. This comes at the cost of not being able to verify the file yourself.
-* Change directories using ```cd ...``` into the location of the downloaded files.
-* Type ```make```. This will create *RuneScape in C*, the executable game.
-* Move *RuneScape in C* to your desired location, and delete all other files.
-* Double-click *RuneScape in C* to play!

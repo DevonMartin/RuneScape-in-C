@@ -511,9 +511,3 @@ void init_skill_funcs() {
     train_skill[MINING] = train_mining;
     train_skill[WOODCUTTING] = train_woodcutting;
 }
-
-// Fire burns out in 4 seconds if you've already successfully cooked and light a new log
-// Cap is immediately after hitting level 3 regardless of xp
-// Cap of logs is 3
-// Items: small fishing net, bronze axe, tinderbox, raw shrimps, shrimps, burnt shrimp, ashes
-// "Moving on" prompt will change depending on if you last cooked or burned a shrimp

@@ -6,6 +6,7 @@
 #include "headers/login.h"
 #include "headers/npcs.h"
 
+// 4,115 lines of code in .c files as of v2.0, 9/1/22
 
 int main(int argc, char *argv[])
 {
@@ -57,23 +58,3 @@ int main(int argc, char *argv[])
     clearscreen();
     return 0;
 }
-
-
-
-/** Project Goals:
- *
- * -Continue implementation until Tutorial Island
- *  is completable and Lumbridge is fully functional.
- * 
- * -Include all f2p skills, Lumbridge NPCs, at least
- *  one quest, combat and monster drop system, shop
- *  funtionality, and bank functionality.
- * 
- * -Land a job lol.
- * 
- * -At time of project submission, this project contains
- *  1,555 lines of code across 12 files, an imported
- *  sqlite3 .c file, and a relational database with 3
- *  linked tables storing user/character data.
- * 
- */

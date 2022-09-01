@@ -8,31 +8,6 @@
 #include "headers/main.h"
 #include "headers/skills.h"
 
-// Skills
-// 0. Agility
-// 1. Attack
-// 2. Construction
-// 3. Cooking
-// 4. Crafting
-// 5. Defence
-// 6. Farming
-// 7. Firemaking
-// 8. Fishing
-// 9. Fletching
-// 10. Herblore
-// 11. Hitpoints
-// 12. Hunter
-// 13. Magic
-// 14. Mining
-// 15. Prayer
-// 16. Ranged
-// 17. Runecraft
-// 18. Slayer
-// 19. Smithing
-// 20. Strength
-// 21. Thieving
-// 22. Woodcutting
-
 int nothing_interesting_obj(int inv_slot) {
     return 1;
 }

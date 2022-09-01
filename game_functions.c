@@ -126,7 +126,7 @@ double cascade_skill_success_odds(Skill_Element elements[], int element_index, i
     return -1;
 }
 
-// Returns number of seconds since Jan. 1
+// Returns number of seconds since Jan. 1. Potential glitch: User plays past midnight on Dec. 31 into the new year.
 int current_time() {
     time_t rawtime;
     struct tm * timeinfo;
