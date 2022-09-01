@@ -85,7 +85,7 @@ Objects are interacted with to allow a player to gain new items, experience in t
 * [**sqlite3.c**](https://www.sqlite.org/cintro.html) is the file that allows for interaction with the database that stores all user/character information.
 
 ## Installation
-1. [Download](https://github.com/DevonMartin/RuneScape-in-C/archive/refs/heads/main.zip) this repository. *README.md* and the *img* folder can be deleted.
+1. [Download](https://github.com/DevonMartin/RuneScape-in-C/archive/refs/heads/main.zip) this repository. *README.md*, *LICENSE* and the *img* folder can be deleted.
 2. Open a Terminal window.
  * On MacOS, this can be done by pressing ```cmd-space``` to open *Spotlight Search*, typing *Terminal*, and pressing ```enter```.
  * On Windows, third party software may be required to continue. However, you can simply run the *RuneScape in C* file provided, and disregard the remaining installation instructions. This comes at the cost of not being able to verify the file yourself.
