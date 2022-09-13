@@ -455,7 +455,7 @@ int login(void)
             fgets(password, password_size, stdin);
             clearstdin(password);
 
-            if (strlen(username) || strlen(password)) {
+            if (strlen(username) == 0 || strlen(password) == 0) {
                 clearscreen();
                 continue;
             }
