@@ -1,13 +1,13 @@
 
 # RuneScape in C
 
-
+<img src="./img/RSinCLogo.png" align="right" alt="RuneScape in C logo" height="zuto" width="12%">
 
 RuneScape in C is a text-based recreation of the video game that originally inspired me to learn how to code back in the late 2000s/early 2010s. It is currently a representation of the log-in system, including account creation, and the first two sections of the tutorial for the game. RuneScape in C is meant to be as close to a perfect recreation as reasonable. All dialogues, results of interactions between items and objects, timings of skilling actions, etc. are accurate to the original game, using [Old School RuneScape](https://oldschool.runescape.com) during 2022 and [the associated wiki page](https://oldschool.runescape.wiki) as reference. 
 
-
- 
-
+<p align="center">
+  <img src="./img/welcome.png" alt="Initial Welcome Message of program" height="auto" width="60%">
+</p>
 
 ## Features
 
@@ -15,61 +15,61 @@ RuneScape in C is a text-based recreation of the video game that originally insp
 
 NPCs are among the first of the features you experience. By being able to talk to characters like the **Gielinor Guide** or the **Survival Expert**, you're able to learn about different aspects of the game, receive tools to train skills with, and progress through the game. 
 
-Examples
+<details><summary><b>Examples</b></summary>
 
+<p align="center">
+  <img src="./img/NPC1.png" alt="Gielinor Guide welcoming the player" height="auto" width="60%">
+</p>
 
- 
+<p align="center">
+  <img src="./img/NPC2.png" alt="Intro to settings menu" height="auto" width="60%">
+</p>
 
+<p align="center">
+  <img src="./img/NPC3.png" alt="Receiving your first item" height="auto" width="60%">
+</p>
 
-
- 
-
-
-
- 
-
-
-
+</details>
 
 ### Interacting with Items
 
 Items are used for interacting with each other and many objects throughout the world of Gielinor. With an inventory for storing items, you are able to drop items, pick them up again (if you get to them before they despawn!), light fires by using a **Tinderbox** on some **Logs** you chopped, and more. 
 
-Examples
+<details><summary><b>Examples</b></summary>
 
+<p align="center">
+  <img src="./img/items1.png" alt="Inventory Menu" height="auto" width="100%">
+</p>
 
- 
+<p align="center">
+  <img src="./img/items2.png" alt="Interacting with your Small fishing net in your inventory" height="auto" width="100%">
+</p>
 
+<p align="center">
+  <img src="./img/items3.png" alt="Picking up a Small fishing net after dropping it" height="auto" width="60%">
+</p>
 
-
- 
-
-
-
- 
-
-
-
+</details>
 
 ### Interacting with Objects
 
 Objects are interacted with to allow a player to gain new items, experience in their skills, and more. Objects can be interacted with in different ways, depending on what they do. For example, you can fish or chop logs via *Train a Skill*. However, you can also fish by using your Small fishing net on a **Fishing spot**.
 
-Examples
+<details><summary><b>Examples</b></summary>
 
+<p align="center">
+  <img src="./img/objects1.png" alt="Choosing how to train Fishing" height="auto" width="80%">
+</p>
 
- 
+<p align="center">
+  <img src="./img/objects2.png" alt="Attempting to place a Small fishing net on a table" height="auto" width="60%">
+</p>
 
+<p align="center">
+  <img src="./img/objects3.png" alt="Informaing a user the table is full" height="auto" width="80%">
+</p>
 
-
- 
-
-
-
- 
-
-
-
+</details>
 
 ## Files
 
