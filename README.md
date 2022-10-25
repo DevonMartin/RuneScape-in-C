@@ -1,7 +1,7 @@
 
 # RuneScape in C
 
-<img src="./img/RSinCLogo.png" align="right" alt="RuneScape in C logo" height="zuto" width="12%">
+<img src="./img/RSinCLogo.png" align="right" alt="RuneScape in C logo" height="auto" width="12%">
 
 RuneScape in C is a text-based recreation of the video game that originally inspired me to learn how to code back in the late 2000s/early 2010s. It is currently a representation of the log-in system, including account creation, and the first two sections of the tutorial of the game. RuneScape in C is meant to be as close to a perfect recreation as reasonable. All dialogues, results of interactions between items and objects, timings of skilling actions, etc. are accurate to the original game, using [Old School RuneScape](https://oldschool.runescape.com) during 2022 and [the associated wiki page](https://oldschool.runescape.wiki) as reference. 
 
