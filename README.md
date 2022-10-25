@@ -66,7 +66,7 @@ Objects are interacted with to allow a player to gain new items, experience in t
 </p>
 
 <p align="center">
-  <img src="./img/objects3.png" alt="Informaing a user the table is full" height="auto" width="80%">
+  <img src="./img/objects3.png" alt="Informing a user the table is full" height="auto" width="80%">
 </p>
 
 </details>
